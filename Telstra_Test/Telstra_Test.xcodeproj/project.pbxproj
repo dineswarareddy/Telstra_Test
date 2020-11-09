@@ -13,7 +13,6 @@
 		7C3AD66D255962EE00363862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3AD66C255962EE00363862 /* Assets.xcassets */; };
 		7C3AD67B255962EF00363862 /* Telstra_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD67A255962EF00363862 /* Telstra_TestTests.swift */; };
 		7C3AD686255962EF00363862 /* Telstra_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD685255962EF00363862 /* Telstra_TestUITests.swift */; };
-		7C3AD6B3255968EA00363862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3AD6B2255968EA00363862 /* LaunchScreen.storyboard */; };
 		7C3AD6BB255969F400363862 /* FactsListPresenterBoundaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD6BA255969F400363862 /* FactsListPresenterBoundaries.swift */; };
 		7C3AD6C025596A2600363862 /* FactsListInteractorBoundaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD6BF25596A2600363862 /* FactsListInteractorBoundaries.swift */; };
 		7C3AD6C525596A5400363862 /* FactsListViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD6C425596A5400363862 /* FactsListViewFactory.swift */; };
@@ -24,6 +23,11 @@
 		7C3AD6DE25596B4600363862 /* FactsNetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD6DD25596B4600363862 /* FactsNetworkController.swift */; };
 		7C3AD6E325596B7B00363862 /* NetworkUtilitySupporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD6E225596B7B00363862 /* NetworkUtilitySupporter.swift */; };
 		7C3AD6E825596BA400363862 /* PListAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD6E725596BA400363862 /* PListAccessor.swift */; };
+		7C3AD6ED25596E0000363862 /* FactsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD6EC25596E0000363862 /* FactsListTableViewCell.swift */; };
+		7C3AD6F225596E3700363862 /* ItemImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD6F125596E3700363862 /* ItemImageView.swift */; };
+		7C3AD6F725596E5E00363862 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD6F625596E5E00363862 /* ImageCache.swift */; };
+		7C3AD6FC25596ECA00363862 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD6FB25596ECA00363862 /* BaseViewController.swift */; };
+		7C3AD70125596EF600363862 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD70025596EF600363862 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +60,6 @@
 		7C3AD681255962EF00363862 /* Telstra_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Telstra_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3AD685255962EF00363862 /* Telstra_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telstra_TestUITests.swift; sourceTree = "<group>"; };
 		7C3AD687255962EF00363862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C3AD6B2255968EA00363862 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C3AD6BA255969F400363862 /* FactsListPresenterBoundaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsListPresenterBoundaries.swift; sourceTree = "<group>"; };
 		7C3AD6BF25596A2600363862 /* FactsListInteractorBoundaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsListInteractorBoundaries.swift; sourceTree = "<group>"; };
 		7C3AD6C425596A5400363862 /* FactsListViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsListViewFactory.swift; sourceTree = "<group>"; };
@@ -67,6 +70,11 @@
 		7C3AD6DD25596B4600363862 /* FactsNetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsNetworkController.swift; sourceTree = "<group>"; };
 		7C3AD6E225596B7B00363862 /* NetworkUtilitySupporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtilitySupporter.swift; sourceTree = "<group>"; };
 		7C3AD6E725596BA400363862 /* PListAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PListAccessor.swift; sourceTree = "<group>"; };
+		7C3AD6EC25596E0000363862 /* FactsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsListTableViewCell.swift; sourceTree = "<group>"; };
+		7C3AD6F125596E3700363862 /* ItemImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemImageView.swift; sourceTree = "<group>"; };
+		7C3AD6F625596E5E00363862 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		7C3AD6FB25596ECA00363862 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7C3AD70025596EF600363862 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +133,6 @@
 				7C3AD6A2255966A500363862 /* Extensions */,
 				7C3AD6A3255966B800363862 /* Commons */,
 				7C3AD66C255962EE00363862 /* Assets.xcassets */,
-				7C3AD6B2255968EA00363862 /* LaunchScreen.storyboard */,
 				7C3AD671255962EE00363862 /* Info.plist */,
 			);
 			path = Telstra_Test;
@@ -181,6 +188,7 @@
 		7C3AD6A2255966A500363862 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				7C3AD70025596EF600363862 /* UIView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -189,7 +197,10 @@
 			isa = PBXGroup;
 			children = (
 				7C3AD6E225596B7B00363862 /* NetworkUtilitySupporter.swift */,
+				7C3AD6F125596E3700363862 /* ItemImageView.swift */,
 				7C3AD6E725596BA400363862 /* PListAccessor.swift */,
+				7C3AD6F625596E5E00363862 /* ImageCache.swift */,
+				7C3AD6FB25596ECA00363862 /* BaseViewController.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -205,6 +216,7 @@
 		7C3AD6A5255966FE00363862 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				7C3AD6EC25596E0000363862 /* FactsListTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -339,7 +351,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C3AD66D255962EE00363862 /* Assets.xcassets in Resources */,
-				7C3AD6B3255968EA00363862 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,13 +376,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C3AD668255962EA00363862 /* ViewController.swift in Sources */,
+				7C3AD6ED25596E0000363862 /* FactsListTableViewCell.swift in Sources */,
+				7C3AD6F725596E5E00363862 /* ImageCache.swift in Sources */,
 				7C3AD6DE25596B4600363862 /* FactsNetworkController.swift in Sources */,
 				7C3AD6E325596B7B00363862 /* NetworkUtilitySupporter.swift in Sources */,
+				7C3AD6F225596E3700363862 /* ItemImageView.swift in Sources */,
 				7C3AD6CA25596A7500363862 /* FactsModel.swift in Sources */,
+				7C3AD6FC25596ECA00363862 /* BaseViewController.swift in Sources */,
 				7C3AD664255962EA00363862 /* AppDelegate.swift in Sources */,
 				7C3AD6E825596BA400363862 /* PListAccessor.swift in Sources */,
 				7C3AD6CF25596AA600363862 /* APIHandler.swift in Sources */,
 				7C3AD6C025596A2600363862 /* FactsListInteractorBoundaries.swift in Sources */,
+				7C3AD70125596EF600363862 /* UIView+Extension.swift in Sources */,
 				7C3AD6D425596AD900363862 /* FactsListPresenter.swift in Sources */,
 				7C3AD6D925596AFE00363862 /* FactsListInteractor.swift in Sources */,
 				7C3AD6C525596A5400363862 /* FactsListViewFactory.swift in Sources */,
